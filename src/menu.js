@@ -11,7 +11,8 @@ export function MenuModule() {
         </ul>`;
 
   const divMainCourse = document.createElement("div");
-  divMainCourse.innerHTML = `<ul>
+  divMainCourse.innerHTML = `<h3>Main Course</h3>
+          <ul>
           <li>
             🍔 ES6 Burger - Double-patty burger with modern toppings and legacy
             support

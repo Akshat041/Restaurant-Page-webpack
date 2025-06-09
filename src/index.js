@@ -1,5 +1,6 @@
 import { homeModule } from "./home";
 import { MenuModule } from "./menu";
+import { aboutModule } from "./about";
 
 const divContainer = document.querySelector("#content");
 const homeBtn = document.querySelector("#homeBtn");
@@ -21,5 +22,13 @@ const menuBtnClickListener = function () {
   });
 };
 
+const aboutBtnClickListener = function () {
+  aboutBtn.addEventListener("click", () => {
+    divContainer.innerHTML = "";
+    aboutModule();
+  });
+};
+
 homeBtnClickListener();
 menuBtnClickListener();
+aboutBtnClickListener();

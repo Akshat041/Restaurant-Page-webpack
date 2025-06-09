@@ -2,9 +2,11 @@ export function aboutModule() {
   const divContainer = document.querySelector("#content");
 
   const aboutHeading = document.createElement("h2");
-  aboutHeading.innerHTML = `<!-- <h2>About Us</h2>`;
+  aboutHeading.classList.add("aboutHeading");
+  aboutHeading.innerHTML = `<h2>About Us</h2>`;
 
   const aboutContent = document.createElement("div");
+  aboutContent.classList.add("aboutContent");
   aboutContent.innerHTML = `<p>
       Babel Bites is not just a restaurant — it's a delicious blend of modern
       web development concepts and comforting classic cuisine.

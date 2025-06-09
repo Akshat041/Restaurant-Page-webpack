@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #222222;
+}
+
+/* home page */
+header {
+  margin-bottom: 40px;
+  background-color: #2d2d2d;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 20px;
+}
+
+header nav button {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff6f61;
+  color: white;
+  font-weight: bold;
+}
+
+header nav button:hover {
+  background-color: #ff4837;
+}
+
+.divHero {
+  margin: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divOpeningHours {
+  margin: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divLocation {
+  margin: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* menu page */
+.divStarter {
+  margin: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divMainCourse {
+  margin: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divDesserts {
+  margin: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divBeverages {
+  margin: 0px 100px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* about page */
+.aboutHeading {
+  margin: 0 0 50px 100px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin: 0 100px 0 100px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #2d2d2d;
+  color: white;
+  padding-top: 15px;
+}

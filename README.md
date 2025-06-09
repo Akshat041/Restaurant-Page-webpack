@@ -33,53 +33,38 @@ The main goal of this project is to:
 ```bash
 git clone git@github.com:Akshat041/Restaurant-Page-webpack.git
 cd Restaurant-Page-webpack
-2. Install Dependencies
-bash
-Copy
-Edit
-npm install
-3. Run Webpack Build
-bash
-Copy
-Edit
-npx webpack
-This will generate the bundled main.js in the dist/ folder.
+```
 
-4. Open in Browser
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Webpack Build
+
+```bash
+npx webpack
+```
+
+### 4. Open in Browser
+
 Open dist/index.html manually in your browser, or use a local server (like Live Server in VS Code).
 
-🚀 Features
-Modular code structure with ES6 export/import
+---
 
-Page switching using simple DOM logic
+### CSS handled via:
 
-CSS bundled and applied using Webpack
-
-Minimal design with a clean developer-friendly theme
-
-🔧 Webpack Highlights
-Custom webpack.config.js setup
-
-CSS handled via:
-
-bash
-Copy
-Edit
+```bash
 npm install -D style-loader css-loader
+```
+
 Entry point: src/index.js
 
 Output bundled to: dist/main.js
 
-🎓 Learning Outcome
-This project helped me practice configuring Webpack manually, structuring a modular JavaScript project, and working with CSS bundling — all skills essential for real-world frontend development.
+## 📄 License
 
-📄 License
 This project is for educational purposes only. Feel free to fork or clone it to experiment and learn!
 
-👨‍💻 Author
-Created by Akshat Singh— built while learning with The Odin Project.
-
-yaml
-Copy
-Edit
-```
+Created by Akshat Singh — built while learning with The Odin Project.

@@ -1,6 +1,7 @@
 import { homeModule } from "./home";
 import { MenuModule } from "./menu";
 import { aboutModule } from "./about";
+import "./styles.css";
 
 const divContainer = document.querySelector("#content");
 const homeBtn = document.querySelector("#homeBtn");
